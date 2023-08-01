@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이미지 갤러리</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+    <section class="gallery">
+      <ul class="images">
+        <li class="img"><img src="images/1.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/2.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/3.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/4.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/5.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/6.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/7.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/8.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/9.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/10.jpg" alt="이미지" /></li>
+        <li class="img"><img src="images/11.jpg" alt="이미지" /></li>
+      </ul>
+    </section>
+
+    <!-- 평상시 보이지 않는 창 -->
+    <!-- 이미지 클릭시 팝업 박스 -->
+    <div class="lightbox">
+      <div class="wrapper">
+        <header>
+          <div class="details">
+            <i class="uil uil-camera"></i>
+            <span>Image Preview</span>
+          </div>
+          <div class="buttons"><i class="close-icon uil uil-times"></i></div>
+        </header>
+        <div class="preview-img">
+          <div class="img"><img src="" alt="preview-img" /></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      body {
+        background-color: #ffeead;
+        margin: 10px;
+      }
+      .container div {
+        padding: 10px;
+        text-align: center;
+        /* em은 기존 폰트사이즈(기본은 16px) */
+        font-size: 2em;
+        color: #ffeead;
+      }
+      .home {
+        background-color: #96ceb4;
+        margin-right: auto;
+        flex: 1;
+        order: 2;
+      }
+      .search {
+        background-color: #ff6f69;
+        flex: 1;
+        order: 1;
+      }
+      .logout {
+        background-color: skyblue;
+        flex: 1;
+        order: 3;
+      }
+      .container {
+        border: 5px solid tomato;
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">Home</div>
+      <div class="search">Search</div>
+      <div class="logout">Logout</div>
+    </div>
+  </body>
+</html>
