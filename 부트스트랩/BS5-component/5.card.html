@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <title>카드</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      .card {
+        width: 400px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container py-5">
+      <!-- CARDS TOP IMAGE-->
+      <!-- 이미지가 위에 있을때 -->
+
+      <div class="card mb-5">
+        <img
+          src="/부트스트랩/img/slide1.jpg"
+          alt=""
+          class="card-img-top"
+        />
+        <div class="card-body">
+          <h5 class="card-title">카드제목</h5>
+          <p class="card-text">카드내용</p>
+        </div>
+      </div>
+
+      <br /><br />
+      <hr />
+      <br /><br />
+
+      <!-- CARDS BOTTOM IMAGE-->
+      <!-- 이미지가 아래에 있을때 -->
+      <div class="card text-white mb-5">
+        <div class="card-body">
+          <h5 class="card-title">카드제목2</h5>
+          <p class="card-text">카드내용2</p>
+        </div>
+        <img
+          src="/부트스트랩/img/slide1.jpg"
+          alt=""
+          class="card-img-bottom"
+        />
+      </div>
+
+      <br /><br />
+      <hr />
+      <br /><br />
+
+      <!-- CARDS OVERLAY IMAGE-->
+      <!-- 카드 오버레이 : 이미지와 내용 겹침 -->
+      <div class="card text-white mb-5">
+        <img src="/부트스트랩/img/slide3.jpg" alt="" class="card-img" />
+        <div class="card-img-overlay">
+          <h5 class="card-title">카드제목3</h5>
+          <p class="card-text">카드내용3</p>
+        </div>
+      </div>
+
+      <br /><br />
+      <hr />
+      <br /><br />
+
+      <!-- CARD LINK -->
+      <!-- 카드링크 -->
+      <div class="card">
+        <img
+          src="/부트스트랩/img/slide3.jpg"
+          alt=""
+          class="card-img-top"
+        />
+        <div class="card-body">
+          <h5 class="card-title">카드링크</h5>
+          <p class="card-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            saepe ducimus mollitia magni pariatur enim nemo harum voluptate
+            dicta quaerat.
+          </p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Card link</a>
+          <ui class="list-group list-group-flush">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">second item</li>
+            <li class="list-group-item">third item</li>
+          </ui>
+        </div>
+      </div>
+
+      <br /><br />
+      <hr />
+      <br /><br />
+
+      <!-- CARD HEADER AND FOOTER -->
+      <!-- 카드 헤더와 푸터 -->
+      <div class="card">
+        <div class="card-header">카드헤더</div>
+        <div class="card-body">
+          <h4 class="card-title">카드제목</h4>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            rerum asperiores impedit labore iusto optio distinctio autem,
+            doloremque sint maiores!
+          </p>
+        </div>
+        <div class="card-footer">카드푸터</div>
+      </div>
+
+      <br /><br />
+      <hr />
+      <br /><br />
+
+      <!-- CARD DANGER -->
+      <!-- 배경색 입력시 -->
+      <div class="card bg-warning text-white">
+        <div class="card-header">헤더</div>
+        <div class="card-body">
+          <h4 class="card-title">제목</h4>
+          <p class="card-text">바디</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
